@@ -1,7 +1,6 @@
 # Algorimos e Programação Aulas
- Códigos criados durante as aulas de algoritimo e programação
- Essa é a primeira lista:
- Lista 1 - Algoritmos e Programação Aplicada — Modularização
+ <h2>Lista 1 - Algoritmos e Programação Aplicada — Modularização</h2>
+ 
  
 1 - Escreva um programa que tenha uma sub-rotina para validar a nota de um aluno. Se a nota informada estiver fora do intervalo de 0 a 10, a função deve retornar falso. O programa principal deve pedir uma nova entrada até que uma nota válida seja informada. Além disso, exiba uma mensagem para o usuário indicando se a nota foi aceita ou não.
 
