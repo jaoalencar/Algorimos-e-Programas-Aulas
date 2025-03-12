@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+// Função para validar a nota do aluno
+bool validarNota(float nota) {
+    return (nota >= 0 && nota <= 10);
+}
+
+int main() {
+    float nota;
+
+    // Loop para solicitar a nota até que seja válida
+    do {
+        cout << "Digite a nota do aluno (0 a 10): ";
+        cin >> nota;
+
+        if (!validarNota(nota)) {
+            cout << "Nota invalida! Tente novamente." << endl;
+        }
+    } while (!validarNota(nota));
+
+    cout << "Nota aceita: " << nota << endl;
+
+    return 0;
+}
